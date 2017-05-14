@@ -6,14 +6,18 @@
 	<title>Login</title>
 </head>
 <body>
-	<div id="banner">
-		<h1>Đăng Nhập Vào Hệ Thống Trung Tâm Sát Hạch Mô Tô</h1>
+	<div id="webadmincontrolbanner">
+		<h1>Web ADMIN CONTROL PANNEL</h1>
+		<h4>Trung tâm sát hạch mô tô </h4>
 	</div>
 	<div id="login">
+	<div id="title_dangnhap">
+		<p>Đăng Nhập</p>
+	</div>
 		<form action="">
 			<label for="account">Tài Khoản:</label><input type="text" name="account"><br>
 			<label for="password">Mật Khẩu: </label><input type="password" name=password><br>
-			<input type="submit" value="Login">
+			<input type="submit" value="Login" class="color">
 		</form>
 	</div>
 </body>
