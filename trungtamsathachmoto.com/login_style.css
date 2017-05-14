@@ -1,0 +1,22 @@
+body{
+	position: relative;
+	background-color: #ffffff;
+}
+#login{
+	width: 300px;
+	height:130px;
+	margin:10% auto; 
+	text-align: center;
+	font-size: 1.3em;
+	background-color: #41a7cf;
+}
+label{
+	padding: 8px 10px;
+}
+input{
+	margin-top: 20px;
+}
+#banner{
+	background-color: #535252;
+	height: 100px;
+}
