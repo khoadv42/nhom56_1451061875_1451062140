@@ -1,0 +1,30 @@
+body{background-color: #f1f1f1;}
+#wapper{width:450px; margin:5em auto;border:1px solid #ccc;}
+label{font-weight: bold;}
+#click{text-align: center;margin: 0px auto;
+	background-color:#4CAF50;
+	padding: 12px 20px;
+	border-radius: 1em;
+}
+input[type=text],input[type=password]{
+	width: 100%;
+	padding: 10px 15px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+input[type=submit]{
+	background-color: #4CAF50;
+	color: white;
+	width: 100%;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	padding: 14px 20px;
+}
+
+input[type=submit]:hover{
+	opacity: 0.8;
+}

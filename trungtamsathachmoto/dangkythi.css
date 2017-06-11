@@ -1,0 +1,11 @@
+#wapper{width:600px;margin:auto;border:1px solid #c3c3c3;}
+#dangkyForm{text-align: left;}
+#content h2{color:blue;text-transform:uppercase;text-align:center;}
+input[type=text]{background-color:transparent;border:1px solid #c1c1c1;padding: 2px; margin:1em;}
+input[type=submit]{background-color: #4CAF50;border:1px solid #ccc;}
+label{margin: 1em;color:navy;}
+#canhbao{font-size: 1em;}
+input[type=submit]{
+	font-size: 100%;
+}
+input[type=radio]{}
