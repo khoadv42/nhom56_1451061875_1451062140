@@ -21,12 +21,12 @@
 			<div id="container">
 				<div id="menu_main">
 				<ul>
-					<li><a href="#" class="menu-item" id="menu1" title="Trang Chủ"><span class="menu-title" >trang chủ</span></a></li>
-					<li><a href="#" class="menu-item" id="menu2" title="Giới Thiệu"><span class="menu-title">Giới Thiệu</span></a></li>
-					<li><a href="#" class="menu-item" id="menu3" title="Hỏi Đáp"><span class="menu-title" >Hỏi Đáp</span></a></li>
-					<li><a href="#" class="menu-item" id="menu4" title="Lịch Học"><span class="menu-title" >lịch học</span></a></li>
-					<li><a href="#" class="menu-item" id="menu5" title="Lịch Thi"><span class="menu-title">lịch thi</span></a></li>
-					<li><a href="#" class="menu-item" id="menu6" title="Tuyển Dụng"><span class="menu-title">tuyển dụng</span></a></li>
+					<li><a href="index.php" class="menu-item" id="menu1" title="Trang Chủ"><span class="menu-title" >trang chủ</span></a></li>
+					<li><a href="TrangGioiThieu.php" class="menu-item" id="menu2" title="Giới Thiệu"><span class="menu-title">Giới Thiệu</span></a></li>
+					<li><a href="TrangHoiDap.php" class="menu-item" id="menu3" title="Hỏi Đáp"><span class="menu-title" >Hỏi Đáp</span></a></li>
+					<li><a href="TrangLichHoc.php" class="menu-item" id="menu4" title="Lịch Học"><span class="menu-title" >lịch học</span></a></li>
+					<li><a href="TrangLichThi.php" class="menu-item" id="menu5" title="Lịch Thi"><span class="menu-title">lịch thi</span></a></li>
+					<li><a href="TrangtuyenDung.php" class="menu-item" id="menu6" title="Tuyển Dụng"><span class="menu-title">tuyển dụng</span></a></li>
 					<li><a href="dangkythi.php" class="menu-item" id="menu7" title="Đăng Ký Thi"><span class="menu-title" >đăng ký thi</span></a></li>
 				</ul>
 				</div><!--end  menu_main  -->

@@ -20,7 +20,7 @@ body{margin :0px;padding :0px;position: relative;}
 #sidebar_right{width:29%;float:right;}
 
 .tieude{font-size: 1.3em;font-family:"Times New Roman", Georgia, Serif;font-weight:100%;text-transform: uppercase;background-color: #c5b5b5;border-radius: 4px;}
-.title_content{font-size: 1.2em;font-family:"Times New Roman", Georgia, Serif;;text-align:center;color: blue;}
+.title_content{font-size: 1.2em;font-family:"Times New Roman", Georgia, Serif;;ext-align:center;color: blue;}
 .thongbao{font-size:1.4em;font-family:"Times New Roman", Georgia, Serif;}
 
 #sidebar_right div{border:1px solid #ccc;border-top-right-radius: 4px;border-top-left-radius: 4px;padding-top:0px;}
@@ -55,3 +55,4 @@ iframe{
 	border: 10px solid  #293d3d;
 	border-radius: 5px;
 }
+#title_hoidap{color: #d14b17;}

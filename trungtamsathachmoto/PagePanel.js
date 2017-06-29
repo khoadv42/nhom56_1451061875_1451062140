@@ -24,5 +24,8 @@ $(document).ready(function(){
 		$("#content div").show();
 		$("#TrangChu").siblings().hide();
 	});
-
+	$("#7").click(function() {
+		$("#content div").show();
+		$("#HoiDap").siblings().hide();
+	});
 });

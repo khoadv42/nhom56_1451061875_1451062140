@@ -29,8 +29,8 @@
 					$conn=mysqli_connect('localhost','root','','dbtrungtamsathachlaixemoto')or die ('không thể kết nối vào database');
 					$email=mysqli_real_escape_string($conn,$_POST['txtTaiKhoan']);
 					$pword=mysqli_real_escape_string($conn,$_POST['pword']);
-					$hash_pw=sha1($pword);
-					$query="select fullName as name from tblusers where email='{$email}' and pword='{$hash_pw}' limit 1";
+					// $hash_pw=sha1($pword);
+					$query="select fullName as name from tblusers where email='{$email}' and pword='{$pword}' limit 1";
 					mysqli_set_charset($conn,'utf8');
 					$result=mysqli_query($conn,$query) or die(mysqli_error($conn));
 					if(mysqli_num_rows($result)==1){
@@ -58,9 +58,9 @@
 				?>
 			<div id="loginForm">
 				<form action="" method="post">
-				<label for="UserName"><img src="img/account.png" alt="ảnh die"> Acount</label>
+				<label for="UserName"><img src="img/account.png" alt="đuongdananhsai"> Acount</label>
 				<input type="text" name="txtTaiKhoan" value="" required><br>
-				<label for="pword"><img src="img/key.png" alt="ảnh die">Key</label><br>
+				<label for="pword"><img src="img/key.png" alt="đuongdananhsai">Key</label><br>
 				<input type="password" name="pword" value="" required><br>
 				<input type="submit" name="submit" value="Gửi"><br>
 				<input type="checkbox" name="check" id="check"><label for="remember">Nhớ Mật Khẩu</label>
